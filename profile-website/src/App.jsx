@@ -1,11 +1,12 @@
 import "./App.css";
+import Home from "./assets/home";
 import Navbar from "./assets/navbar";
 
 function App() {
   return (
-    <div className="bg-blue-500 text-white text-center p-4">
+    <div>
       <Navbar />
-      <h1 >Hello, World!</h1>
+      <Home/>
     </div>
   );
 }
