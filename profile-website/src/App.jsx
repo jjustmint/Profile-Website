@@ -1,6 +1,7 @@
 import "./App.css";
-import Home from "./assets/home";
+import Home from "./pages/home";
 import Navbar from "./assets/navbar";
+import Gallery from "./pages/Gallery";
 
 function App() {
   return (
