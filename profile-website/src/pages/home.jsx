@@ -1,4 +1,6 @@
 import profileImage from "../image/user_pic.png"; // Replace with your actual image path
+import facebookicon from "../icons/facebook.svg";
+import instagramicon from "../icons/instagram.svg";
 
 const Home = () => {
   return (
@@ -19,9 +21,15 @@ const Home = () => {
 
           {/* Social Media Icons */}
           <div className="flex space-x-4 mt-6">
-            <a href="#" className="text-2xl text-black hover:text-green-600">🔵</a>
-            <a href="#" className="text-2xl text-black hover:text-green-600">📷</a>
-            <a href="#" className="text-2xl text-black hover:text-green-600">✉️</a>
+            <a href="https://www.facebook.com/login" target="_blank" rel="facebook">
+               <img src={facebookicon} alt="Facebook Icon" className="w-10 h-10" />
+            </a>
+            <a href="https://www.instagram.com/login" target="_blank" rel="instagram">
+               <img src={instagramicon} alt="Facebook Icon" className="w-10 h-10" />
+            </a>
+            <a href="https://x.com/home" target="_blank" rel="instagram">
+               <img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/X_icon_2.svg" alt="Facebook Icon" className="w-10 h-10 rounded-md" />
+            </a>
           </div>
 
           {/* Portfolio Button */}

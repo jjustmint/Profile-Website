@@ -5,7 +5,7 @@ const AboutMe = () => {
   return (
     <div className="bg-white min-h-screen flex flex-row items-center justify-center">
         {/* Image Section */}
-        <div className="flex w-120 h-140">
+        <div className="w-60 md:w-100 lg:w-80 rounded-lg object-cover">
           <img src = {profileImage} alt="Profile" className=""/>
           </div>
           {/* <div className="bg-green-100 rounded-full w-72 h-72 absolute top-100 left-100 transform -translate-x-8 -translate-y-8 blur-3xl"></div> */}
