@@ -2,11 +2,11 @@ import profileImage from "../image/user_pic.png"; // Replace with your actual im
 
 const Home = () => {
   return (
-    <div className="bg-gradient-to-r from-white to-green-100 min-h-screen flex items-center justify-center">
+    <div className="bg-gradient-to-r from-white to-green-100 min-h-screen flex flex-row items-center justify-center">
       {/* Hero Section */}
       <section 
         id="Home" 
-        className="w-full max-w-7xl flex flex-col md:flex-row items-center justify-between px-10 md:px-20 lg:px-40 py-24"
+        className="w-full max-w-7xl flex flex-row md:flex-row px-10 md:px-20 lg:px-40 py-24"
       >
         {/* Text Section (Left Side) */}
         <div className="md:w-1/2 text-left">
@@ -35,7 +35,7 @@ const Home = () => {
           <img 
             src={profileImage} 
             alt="Artist John" 
-            className="w-48 md:w-60 lg:w-72 rounded-lg object-cover"
+            className="w-60 md:w-100 lg:w-80 rounded-lg object-cover"
           />
         </div>
       </section>

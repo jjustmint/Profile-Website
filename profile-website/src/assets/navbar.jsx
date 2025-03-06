@@ -4,7 +4,7 @@ const Navbar = () => {
     const [active, setActive] = useState("Home");
 
     return (
-        <nav className="flex justify-between items-center px-8 py-4 shadow-md bg-white bg-opacity-0">
+        <nav className="flex justify-between items-center px-8 py-4 shadow-md">
             {/* Logo */}
             <h1 className="text-xl font-bold">Artist John</h1>
 
