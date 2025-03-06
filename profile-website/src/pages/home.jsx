@@ -2,7 +2,7 @@ import profileImage from "../image/user_pic.png"; // Replace with your actual im
 
 const Home = () => {
   return (
-    <div className="bg-gradient-to-r from-white to-green-100 min-h-screen flex flex-row items-center justify-center">
+    <div className="bg-white min-h-screen flex flex-row items-center justify-center">
       {/* Hero Section */}
       <section 
         id="Home" 
