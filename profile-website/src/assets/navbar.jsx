@@ -10,16 +10,24 @@ const Navbar = () => {
 
             {/* Navigation Links */}
             <ul className="flex space-x-6 text-black">
-                {["Home", "About me", "Gallery"].map((item) => (
-                    <li
-                        key={item}
-                        className={`px-4 py-2 rounded-full font-semibold cursor-pointer transition-colors duration-200 
-                        ${active === item ? "bg-green-200 text-black" : "hover:bg-green-100 hover:text-black"}`}
-                        onClick={() => setActive(item)}
-                    >
-                        {item}
-                    </li>
-                ))}
+                <li
+                    className={`px-4 py-2 rounded-full font-semibold cursor-pointer transition-colors duration-200 ${active === "Home" ? "bg-green-200 text-black" : "hover:bg-green-100 hover:text-black"}`}
+                    onClick={() => setActive("Home")}
+                >
+                    Home
+                </li>
+                <li
+                    className={`px-4 py-2 rounded-full font-semibold cursor-pointer transition-colors duration-200 ${active === "About me" ? "bg-green-200 text-black" : "hover:bg-green-100 hover:text-black"}`}
+                    onClick={() => setActive("About me")}
+                >
+                    About me
+                </li>
+                <li
+                    className={`px-4 py-2 rounded-full font-semibold cursor-pointer transition-colors duration-200 ${active === "Gallery" ? "bg-green-200 text-black" : "hover:bg-green-100 hover:text-black"}`}
+                    onClick={() => setActive("Gallery")}
+                >
+                    Gallery
+                </li>
             </ul>
 
             {/* Contact Button */}
