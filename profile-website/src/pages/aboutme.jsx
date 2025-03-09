@@ -3,7 +3,7 @@ import React from "react";
 
 const AboutMe = () => {
   return (
-    <div className="bg-white min-h-screen flex flex-row sm:flex-col md:flex-row items-center justify-center p-6">
+    <div className="bg-white min-h-screen flex sm:flex-col md:flex-row items-center justify-center p-6">
       {/* Image Section */}
       <div className="w-60 md:w-80 rounded-lg object-cover sm:mb-6 md:mr-12">
         <img src={profileImage} alt="Profile" className="m-5" />

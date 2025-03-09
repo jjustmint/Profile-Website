@@ -1,7 +1,7 @@
 const Gallery = () => {
     return (
-      <div className="flex flex-col items-center min-h-screen">
-        <h1 className="font-bold text-5xl mt-20">Gallery</h1>
+      <div className="flex flex-col items-center justify-center w-3/4 mx-auto">
+        <h1 className="font-bold text-4xl mt-20">Gallery</h1>
         <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4 p-10">
           <img
             className="w-200 rounded-lg shadow-md"
