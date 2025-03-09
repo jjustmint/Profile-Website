@@ -1,6 +1,6 @@
 ### create react-vite project
 
-npm create react vite@latest $project_name
+npm create vite@latest $project_name
 
 ### install dependencies
 
