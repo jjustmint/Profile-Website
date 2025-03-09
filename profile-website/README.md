@@ -23,6 +23,8 @@ tailwindcss(),
 ],
 })
 
-### add tailwindcss to App.css
+### add tailwindcss to index.css
 
 @import "tailwindcss";
+
+## import in main
