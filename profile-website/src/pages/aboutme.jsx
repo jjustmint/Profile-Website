@@ -3,14 +3,15 @@ import React from "react";
 
 const AboutMe = () => {
   return (
-    <div className="bg-white min-h-screen flex flex-col sm:flex-col md:flex-row items-center justify-center p-6">
+    <div className="bg-white min-h-screen flex flex-row sm:flex-col md:flex-row items-center justify-center p-6">
       {/* Image Section */}
       <div className="w-60 md:w-80 rounded-lg object-cover sm:mb-6 md:mr-12">
-        <img src={profileImage} alt="Profile" />
+        <img src={profileImage} alt="Profile" className="m-5" />
       </div>
       
       {/* Text Section */}
-      <div className="text-center md:text-left">
+      
+      <div className="lg:text-left md:text-center p-15">
         <h2 className="text-3xl font-bold text-gray-900">About Me</h2>
         <p className="text-lg font-semibold text-gray-700 mt-2">Artist & Designer</p>
         <p className="text-gray-600 mt-4 max-w-lg">
